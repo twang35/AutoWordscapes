@@ -11,7 +11,9 @@ The family was playing Wordscapes, but I'm terrible at word games. Good thing co
 6. Repeat 2-5 for all puzzles
 
 ## Auto solving example
-![example solves](https://github.com/twang35/AutoWordscapes/blob/main/screenshots/multiple%20solves.mp4)
+
+https://github.com/twang35/AutoWordscapes/blob/main/screenshots/multiple%20solves.mp4
 
 ## \#1 on the global leaderboards
+
 ![global leaderboard](https://github.com/twang35/AutoWordscapes/blob/main/screenshots/leaderboard%2028-02-2022.png)
