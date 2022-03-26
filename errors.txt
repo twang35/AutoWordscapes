@@ -1,0 +1,38 @@
+screenshot letters
+letters: ['I', 'I']
+less than 5 letters found, retrying
+screenshot letters
+letters: ['I', 'I', 'I', 'I']
+less than 5 letters found, retrying
+screenshot letters
+Traceback (most recent call last):
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\PIL\ImageFile.py", line 495, in _save
+    fh = fp.fileno()
+AttributeError: '_idat' object has no attribute 'fileno'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\main.py", line 56, in <module>
+    letterData = get_letters()
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\capture.py", line 142, in get_letters
+    individualLetters[i]['letter'] = pytesseract.image_to_string(individualLetters[i]['image'],
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\pytesseract\pytesseract.py", line 413, in image_to_string
+    return {
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\pytesseract\pytesseract.py", line 416, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\pytesseract\pytesseract.py", line 273, in run_and_get_output
+    with save(image) as (temp_name, input_filename):
+  File "C:\Users\twang\AppData\Local\Programs\Python\Python39\lib\contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\pytesseract\pytesseract.py", line 196, in save
+    image.save(input_file_name, format=image.format)
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\PIL\Image.py", line 2212, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\PIL\PngImagePlugin.py", line 1348, in _save
+    ImageFile._save(im, _idat(fp, chunk), [("zip", (0, 0) + im.size, 0, rawmode)])
+  File "C:\Users\twang\Dropbox\Workspace\AutoWordscapes\venv\lib\site-packages\PIL\ImageFile.py", line 503, in _save
+    e.setimage(im.im, b)
+SystemError: tile cannot extend outside image
+
+Process finished with exit code 1

@@ -1,0 +1,5 @@
+bot starting
+move emulator window to corner
+letters: ['E', 'S', 'M', 'U', 'B', 'U', 'S']
+letters: ['E', 'U', 'E', 'D', 'C', 'D']
+letters: ['A', 'E', 'C', 'N', 'T', 'C']
