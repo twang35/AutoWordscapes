@@ -12,7 +12,7 @@ The family was playing Wordscapes, but I'm terrible at word games. Good thing co
 
 ## Auto solving example
 
-https://github.com/twang35/AutoWordscapes/blob/main/screenshots/multiple%20solves.mp4
+https://user-images.githubusercontent.com/5852883/160255617-b4c9dc8c-056b-46d1-8c94-e1d7f358f245.mp4
 
 ## \#1 on the global leaderboards
 
