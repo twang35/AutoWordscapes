@@ -1,12 +1,6 @@
 # AutoWordscapes
 The family was playing Wordscapes, but I'm terrible at word games. Good thing computers are good at word games.
 
-## \#1 on the global leaderboards
-![global leaderboard](https://github.com/twang35/AutoWordscapes/blob/main/screenshots/leaderboard%2028-02-2022.png)
-
-## Auto solving example
-![example solves](https://github.com/twang35/AutoWordscapes/blob/main/screenshots/multiple%20solves.mkv)
-
 ## How it works
 
 1. Run Wordscapes app in android emulator on computer 
@@ -15,3 +9,9 @@ The family was playing Wordscapes, but I'm terrible at word games. Good thing co
 4. Generate all possible words from the letters 
 5. Use mouse to drag letters to input words
 6. Repeat 2-5 for all puzzles
+
+## Auto solving example
+![example solves](https://github.com/twang35/AutoWordscapes/blob/main/screenshots/multiple%20solves.mp4)
+
+## \#1 on the global leaderboards
+![global leaderboard](https://github.com/twang35/AutoWordscapes/blob/main/screenshots/leaderboard%2028-02-2022.png)
